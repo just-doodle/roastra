@@ -1,0 +1,24 @@
+{
+  "name": "roastra",
+  "version": "1.0.0",
+  "description": "A simple package to create roast sentences!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-doodle/roastra.git"
+  },
+  "keywords": [
+    "roastra"
+  ],
+  "author": "Harry <harrytom2606@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/just-doodle/roastra/issues",
+    "email": "harrytom2606@gmail.com"
+  },
+  "homepage": "https://github.com/just-doodle/roastra#readme"
+}
