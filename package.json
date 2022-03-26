@@ -1,6 +1,6 @@
 {
   "name": "roastra",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple package to create roast sentences!",
   "main": "index.js",
   "type": "module",
