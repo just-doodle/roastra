@@ -1,4 +1,4 @@
-import wordList from "../words.json" assert { type: "json" };
+import wordList from "./words.json" assert { type: "json" };
 class Roastra {
   constructor(options) {
     if (options.plural === true) {
@@ -47,7 +47,6 @@ class Roastra {
     var result = {
       sentance,
       name: this.options.name,
-      plural: this.options.plural,
     };
 
     if (typeof callback === "function") {
@@ -58,4 +57,4 @@ class Roastra {
   }
 }
 
-export default Roast;
+export default Roastra;

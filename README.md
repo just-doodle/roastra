@@ -18,7 +18,7 @@ npm install roastra
 1. Import the package:
 
 ```js
-import Roast from "roastra";
+import Roastra from "roastra";
 ```
 
 2. Initilize `Roast` Class with the parameters below
@@ -27,6 +27,37 @@ import Roast from "roastra";
 var roast = new Roastra({
   name: "Rocky",
 });
+```
+
+3. Getting response
+
+- Using callback `roast.Get(<callback>)`
+
+```js
+roast.Get((data) => {
+  console.log(data);
+});
+
+/* EXAMPLE OUTPUT
+{
+ sentance: 'Rocky is crazy as a dirty puddle of unwanted slug vomit',
+ name: 'Rocky',
+}
+*/
+```
+
+- Using `return `
+
+```js
+var data = roast.Get();
+console.log(data);
+
+/* EXAMPLE OUTPUT
+{
+ sentance: 'Rocky is crazy as a dirty puddle of unwanted slug vomit',
+ name: 'Rocky',
+}
+*/
 ```
 
 | Parameter | Description                                 | type              | Required | Default |
