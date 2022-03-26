@@ -12,7 +12,10 @@
     "url": "git+https://github.com/just-doodle/roastra.git"
   },
   "keywords": [
-    "roastra"
+    "roastra",
+    "roast",
+    "sentence",
+    "insult"
   ],
   "author": "Harry <harrytom2606@gmail.com>",
   "license": "MIT",
